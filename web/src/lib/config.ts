@@ -3,5 +3,5 @@ interface Config {
 }
 
 export const config: Config = {
-  appName: 'noir-vite-template',
+  appName: '{{project_name}}',
 }

@@ -1,0 +1,6 @@
+[template]
+cargo_generate_version = ">=0.18.0"
+ignore = [".git", "target", "node_modules", "dist", ".next"]
+
+[placeholders]
+project_name = { prompt = "Project name", regex = "^[a-zA-Z][a-zA-Z0-9_-]*$" }

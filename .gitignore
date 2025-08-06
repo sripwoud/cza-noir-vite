@@ -10,5 +10,3 @@ target
 .tanstack
 .vscode
 .membank
-# wasm and worker file are copied during build
-web/public
