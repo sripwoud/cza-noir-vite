@@ -1,3 +1,4 @@
+import slugify from '@sindresorhus/slugify'
 import tailwindcss from '@tailwindcss/vite'
 import { tanstackRouter } from '@tanstack/router-plugin/vite'
 import react from '@vitejs/plugin-react-swc'
@@ -15,7 +16,7 @@ const plugins = [
 
 export default defineConfig(({ mode }) => {
   return {
-    base: process.env.CI ? '/noir-vite-template/' : '/',
+    base: process.env.CI ? `/${slugify('{{project_name}}')}/` : '/',
     plugins,
     server: {
       open: mode === 'development',
