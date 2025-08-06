@@ -10,3 +10,5 @@ target
 .tanstack
 .vscode
 .membank
+web/public/*
+!web/public/.gitignore
