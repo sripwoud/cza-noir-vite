@@ -11,4 +11,4 @@ target
 .vscode
 .membank
 web/public/*
-!web/public/.gitignore
+!web/public/.gitkeep
