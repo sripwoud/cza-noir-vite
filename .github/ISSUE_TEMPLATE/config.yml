@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/sripwoud/cza-templates/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 📚 cza CLI Documentation
+    url: https://github.com/sripwoud/cza#readme
+    about: Read the main CLI documentation
+  - name: 🐛 CLI Issues
+    url: https://github.com/sripwoud/cza/issues
+    about: Report issues with the cza CLI itself (not templates)
